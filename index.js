@@ -44,9 +44,6 @@ if(lastName != 'Carreon'){
 console.log(`Task B: ${firstName} ${lastName} because Ramiro's last name is Carreon not Johnson.`);
 
 
-
-
-
 /*
 Task 1c - Convert Strings to Numbers
 
@@ -72,9 +69,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function Multiply(num1, num2){
+  let product = num1 * num2;
+  console.log (`Task D: ${num1} times ${num2} equals ${product}.`);
+}
+
+Multiply(100, 10);
 
 
 
