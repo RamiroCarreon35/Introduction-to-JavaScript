@@ -17,7 +17,11 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 16;
 
+if(votingAge > 15){
+    console.log(`Task A: True, Voting age is set to ${votingAge}.`);
+}
 
 
 /*
@@ -30,9 +34,14 @@ Do the following:
 
    HINT: no function required
 */
+let firstName = 'Ramiro';
+let lastName = 'Johnson';
 
+if(lastName != 'Carreon'){
+    firstName = 'Not Ramiro'
+}
 
-
+console.log(`Task B: ${firstName} ${lastName} because Ramiro's last name is Carreon not Johnson.`);
 
 
 /*
@@ -45,7 +54,9 @@ Do the following:
 
    HINT: look up the Number method
 */
+let myStr = '1999';
 
+console.log (`Task C: ${Number(myStr)}`);
 
 
 
@@ -58,9 +69,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function Multiply(num1, num2){
+  let product = num1 * num2;
+  console.log (`Task D: ${num1} times ${num2} equals ${product}.`);
+}
+
+Multiply(100, 10);
 
 
 
