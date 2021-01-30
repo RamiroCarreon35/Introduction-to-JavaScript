@@ -17,7 +17,11 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 16;
 
+if(votingAge > 15){
+    console.log(`Task A: True, Voting age is set to ${votingAge}.`);
+}
 
 
 /*
@@ -30,6 +34,14 @@ Do the following:
 
    HINT: no function required
 */
+let firstName = 'Ramiro';
+let lastName = 'Johnson';
+
+if(lastName != 'Carreon'){
+    firstName = 'Not Ramiro'
+}
+
+console.log(`Task B: ${firstName} ${lastName} because Ramiro's last name is Carreon not Johnson.`);
 
 
 
@@ -45,7 +57,9 @@ Do the following:
 
    HINT: look up the Number method
 */
+let myStr = '1999';
 
+console.log (`Task C: ${Number(myStr)}`);
 
 
 
