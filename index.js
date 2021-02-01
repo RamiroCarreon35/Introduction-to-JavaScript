@@ -241,12 +241,12 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong() {
-  let i = 99;
-  while (i > 1) {
-      console.log(`${i} bottles of soda on the wall, ${i} bottles of soda, `);
-      i--;
-      console.log(`take one down pass it around, ${i} bottles of soda on the wall!`);
-  }
+    let i = 99;
+    while (i > 1) {
+        console.log(`${i} bottles of soda on the wall, ${i} bottles of soda, `);
+        i--;
+        console.log(`take one down pass it around, ${i} bottles of soda on the wall!`);
+    }
 }
 
 annoyingSong();
