@@ -88,10 +88,13 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(a) {
-  return (a * 7);
+function dogYears(humanYears) {
+  let dogYears = humanYears * 7;
+  return dogYears;
+  
 }
-dogYears(30)
+
+
 
 
 
@@ -276,12 +279,14 @@ function grade(number){
       return "you got a C"
     } else if (number >= 60 && number <= 69) {
       return "you got a D"
-    } else if (number < 60) {
+    } else if (number > 60) {
       return "you got an F"
     }
   }
 
-grade()
+grade();
+
+
   
   
 
@@ -298,8 +303,9 @@ Using the vowelCounter function below do the following:
 */
 
 
-function vowelCounter(/*add your code here*/) {
-    /*add your code here*/
+function vowelCounter(aString) {
+    let vowels = aString.match([aeiou]gi);
+    return vowels === null ? 0 : vowels.length;
 }
 
 
